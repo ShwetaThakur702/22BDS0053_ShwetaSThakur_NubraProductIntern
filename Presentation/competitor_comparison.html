@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Competitor Comparison - Algo Trading Platforms</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Roboto, sans-serif;
+      background: #0D1117;
+      color: #EDEFF4;
+      padding: 40px 20px;
+    }
+    .header { text-align: center; margin-bottom: 40px; }
+    .main-title { font-size: 32px; font-weight: 700; color: #EDEFF4; }
+    .subtitle { font-size: 16px; color: #8A94A6; margin-top: 8px; }
+    .competitor-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 24px; margin-top: 40px;
+    }
+    .competitor-card {
+      background: #121826; border: 1px solid #202632; border-radius: 16px;
+      padding: 24px; box-shadow: 0 6px 20px rgba(0,0,0,0.5);
+      transition: transform 0.3s ease;
+    }
+    .competitor-card:hover { transform: translateY(-6px); }
+    .competitor-logo { font-size: 20px; font-weight: bold; color: #0F6FFF; }
+    .rating { font-size: 14px; color: #D9A441; }
+    .tagline { font-size: 14px; color: #8A94A6; margin: 8px 0 16px; }
+    .feature-item { font-size: 14px; padding: 4px 0; border-bottom: 1px solid #202632; }
+    .strength { color: #4caf50; }
+    .weakness { color: #f44336; }
+    .neutral { color: #D9A441; }
+    .pricing { text-align: center; font-weight: bold; color: #0F6FFF; margin-top: 12px; }
+    .summary {
+      background: #121826; border: 1px solid #202632; border-radius: 16px;
+      padding: 32px; margin-top: 40px;
+    }
+    .summary h2 { text-align: center; color: #EDEFF4; margin-bottom: 20px; }
+    .summary p { color: #8A94A6; font-size: 14px; line-height: 1.6; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1 class="main-title">Competitor Analysis</h1>
+    <p class="subtitle">Comparison of major algo-trading platforms in India</p>
+  </div>
+
+  <div class="competitor-grid">
+    <!-- AlgoTest -->
+    <div class="competitor-card">
+      <div class="competitor-logo">AlgoTest</div>
+      <div class="rating">⭐ 4.2/5</div>
+      <div class="tagline">Options specialist with Greeks & backtests</div>
+      <ul>
+        <li class="feature-item strength">✓ Visual strategy builder</li>
+        <li class="feature-item strength">✓ Greeks analysis</li>
+        <li class="feature-item strength">✓ 7+ yrs historical data</li>
+        <li class="feature-item weakness">❌ Limited to India</li>
+      </ul>
+      <div class="pricing">₹499 / month</div>
+    </div>
+
+    <!-- Zerodha Streak -->
+    <div class="competitor-card">
+      <div class="competitor-logo">Zerodha Streak</div>
+      <div class="rating">⭐ 4.0/5</div>
+      <div class="tagline">Beginner-friendly semi-automated platform</div>
+      <ul>
+        <li class="feature-item strength">✓ Intuitive visual strategy creation</li>
+        <li class="feature-item strength">✓ Large library of pre-built strategies</li>
+        <li class="feature-item strength">✓ Seamless Zerodha integration</li>
+        <li class="feature-item weakness">❌ Only works for Zerodha users</li>
+        <li class="feature-item neutral">⚠️ Semi-automated, requires manual oversight</li>
+      </ul>
+      <div class="pricing">Free with Zerodha account</div>
+    </div>
+
+    <!-- Tradetron -->
+    <div class="competitor-card">
+      <div class="competitor-logo">Tradetron</div>
+      <div class="rating">⭐ 4.3/5</div>
+      <div class="tagline">Cloud-based algo trading powerhouse</div>
+      <ul>
+        <li class="feature-item strength">✓ 100% cloud-based (no installation)</li>
+        <li class="feature-item strength">✓ Strategy marketplace for social trading</li>
+        <li class="feature-item strength">✓ 100+ broker API connections</li>
+        <li class="feature-item strength">✓ Handles 175k+ trades daily</li>
+        <li class="feature-item weakness">❌ Pricing is subscription-only</li>
+        <li class="feature-item neutral">⚠️ Steeper learning curve for beginners</li>
+      </ul>
+      <div class="pricing">Subscription tiers</div>
+    </div>
+
+    <!-- Quantiply -->
+    <div class="competitor-card">
+      <div class="competitor-logo">Quantiply</div>
+      <div class="rating">⭐ 3.8/5</div>
+      <div class="tagline">Automated F&O trading specialist</div>
+      <ul>
+        <li class="feature-item strength">✓ Fully automated execution</li>
+        <li class="feature-item strength">✓ Fast and reliable for index F&O</li>
+        <li class="feature-item weakness">❌ No built-in backtesting engine</li>
+        <li class="feature-item neutral">⚠️ Requires technical setup</li>
+        <li class="feature-item weakness">❌ Limited to index F&O strategies</li>
+      </ul>
+      <div class="pricing">Custom pricing</div>
+    </div>
+  </div>
+
+  <div class="summary">
+    <h2>Market Summary</h2>
+    <p>
+      AlgoTest and Tradetron dominate advanced users, while Streak serves as an entry point for beginners.  
+      Quantiply focuses on F&O automation but lacks backtesting.  
+      The clear gap is a product that eases **manual-to-algo transition** with transparent code export and user trust.
+    </p>
+  </div>
+</body>
+</html>
