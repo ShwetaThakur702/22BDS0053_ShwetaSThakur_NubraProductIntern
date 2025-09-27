@@ -103,6 +103,4 @@ It showcases competitor analysis, business strategy, UI/UX improvements, and a f
 ## Conclusion
 This submission proposes **Nubra’s Strategy Converter** feature as the differentiator.  
 By combining UI/UX improvements, competitor analysis, and a clear adoption journey, Nubra positions itself as the first true **manual-to-algo transition platform**.
-```
-
 
