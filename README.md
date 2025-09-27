@@ -1,4 +1,5 @@
-<<<<<<< HEAD
+# Shweta Sanjay Thakur
+# 22BDS0053
 # Nubra Product Intern Assessment – Complete Submission
 
 This repository contains my complete submission for the **Nubra Product Intern placement project**.  
