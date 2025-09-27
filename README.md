@@ -105,8 +105,4 @@ This submission proposes **Nubra’s Strategy Converter** feature as the differe
 By combining UI/UX improvements, competitor analysis, and a clear adoption journey, Nubra positions itself as the first true **manual-to-algo transition platform**.
 ```
 
----
-=======
-# 22BDS0053_ShwetaSThakur_NubraProductIntern
-Nubra Product Intern assessment project – includes UI/UX improvement suggestions, competitor analysis of backtesting &amp; algo-trading platforms, and a proposed Strategy Converter feature with wireframes to help manual traders transition into algorithmic trading.
->>>>>>> 1e83cb99b58c06b2548098f489e0b63d932f3a2a
+
