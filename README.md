@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Nubra Product Intern Assessment – Complete Submission
 
 This repository contains my complete submission for the **Nubra Product Intern placement project**.  
@@ -104,3 +105,7 @@ By combining UI/UX improvements, competitor analysis, and a clear adoption journ
 ```
 
 ---
+=======
+# 22BDS0053_ShwetaSThakur_NubraProductIntern
+Nubra Product Intern assessment project – includes UI/UX improvement suggestions, competitor analysis of backtesting &amp; algo-trading platforms, and a proposed Strategy Converter feature with wireframes to help manual traders transition into algorithmic trading.
+>>>>>>> 1e83cb99b58c06b2548098f489e0b63d932f3a2a
